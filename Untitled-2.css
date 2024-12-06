@@ -1,0 +1,99 @@
+/* Reset des marges et paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #121212; /* Noir doux pour le fond */
+    color: #e0e0e0; /* Texte clair mais pas trop agressif */
+    padding: 0 20px;
+}
+
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #ffffff; /* Blanc pur pour les titres */
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #b0b0b0; /* Texte gris clair */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    gap: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff; /* Lien en blanc */
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    padding: 5px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #bb86fc; /* Couleur violette douce */
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+}
+
+section {
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #1e1e1e; /* Gris foncé pour les sections */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+section p {
+    margin-bottom: 15px;
+    color: #d0d0d0; /* Texte un peu plus clair */
+}
+
+.profile-pic {
+    max-width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+}
+
+footer {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 0.9rem;
+    color: #757575; /* Texte gris doux */
+}
